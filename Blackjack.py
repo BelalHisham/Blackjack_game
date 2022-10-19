@@ -1,35 +1,3 @@
-# the rules:
-
-## The deck is unlimited in size. 
-## There are no jokers. 
-## The Jack/Queen/King all count as 10.
-## The the Ace can count as 11 or 1. (it will count as 1 when the total is over 21)
-## Use the following list as the deck of cards:
-## cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
-## The cards in the list have equal probability of being drawn.
-## Cards are not removed from the deck as they are drawn.
-## The computer is the dealer.
-#-----------------------------------------------------------------------------------------------------
-
-# How the program will work:
-
-# the program will ask you if you want to play the game? y or n
-# if y you enter the game
-# the logo will be printed 
-# it will show you your card in a list [X, Y], current score is (X + Y)
-# Computer first card: X  >>>>> probably the first element from the computer list
-
-# it askes you if you get another card or pass y or n 
-# if you want to pass (n) it will show you your final hand which is your list and the sum the number in it
-# then prints the computer's final hand which is the computer list and the sum of the numbers
-# if the sum of the computer's list is less than 17 it adds another card and check again
-# tells you if you win or not and why (with emoji ;) )_
-# then ask you if you want to play the game? (while loop)
-# if you chose to take another card 
-# if your cards sum is over 21 you lose and the program prints the whle results as before
-# if the sum is still not over 21 it shows you the sum of your card and the first card from the computer's list and ask again
-#------------------------------------------------------------------------------------------------------------------------------
-
 from enum import Flag
 import random
 from tkinter import Y
